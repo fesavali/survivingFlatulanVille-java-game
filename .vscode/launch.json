@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch survivingFlatulanVille",
+            "request": "launch",
+            "mainClass": "survivingFlatulanVille",
+            "projectName": "gasSol_de26167a"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "gasSol_de26167a"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 12651,
+            "request": "launch",
+            "type": "pwa-chrome",
+            "restart": true,
+            "url": "http://localhost:8080/",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
